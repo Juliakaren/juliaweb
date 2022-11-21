@@ -1,0 +1,99 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Execute seu cadastro</title>
+      <style>
+      body {
+    background-image: url(https://thumbs.dreamstime.com/b/pizza-colorida-saborosa-com-salsicha-de-bacon-pimento-tomate-e-queijo-em-fundo-roxo-pimenta-ilustra%C3%A7%C3%A3o-vetorial-da-sobre-205325324.jpg);
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style-type: none;
+    margin: 50;
+    padding: 50;
+    margin-bottom: 10px;
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-size-adjust: 50px;
+  padding: 6px 6px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: rgb(238, 222, 2);
+}
+#formulario{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.btn_submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  color: rgb(0, 0, 0);
+}
+.btn_submit:hover {
+  background-color: rgb(168, 30, 214);
+}
+p{
+  margin: auto;
+  font-size: 20px;
+  color: rgb(238, 222, 2);
+}
+.container {
+  border-radius: 10px;
+  width: 82%;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(1, 1, 1, 0.6);
+}
+      </style>
+      
+    </head>
+
+    <body>
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="PAG2.html">Página 02</a></li>
+
+    <main class="container">
+      <header>
+        <h1>Cadastre-se</h1>
+      </header>
+       <form id="formulario" autocomplete="off" action="index.html">
+                <fieldset>
+                  <p>Nome:</p> <input class="campo_nome" type="text" required>
+                  <p>Email:</p> <input class="campo_email" required>
+                  <p>Idade:</p> <input class="campo_idade" required>
+                  <p>O que podemos melhorar?:</p> <textarea class="campo_comentario" required></textarea><br>
+                  <input class="btn_submit" type="Submit" value="Enviar">
+                </fieldset>
+            </form>
+     </main> 
+    </body>
+
+</html>

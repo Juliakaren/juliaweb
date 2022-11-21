@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>A história da pizza pelo mundo</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://t3.ftcdn.net/jpg/04/01/49/06/360_F_401490680_XoNjGmIzDK3eYHAVu1plNXWjMDYbB4rZ.jpg);
+  font-family: Arial;
+  padding: 10px;
+  background: #7e5c63;
+}
+
+/* Header/Blog Title */
+.header {
+  font-family: Arial;
+  padding: 30px;
+  text-align: center;
+  background: #8d5d67;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(22, 21, 21);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #8d5d67;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #8d5d67;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #754d55;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #754d55;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #754d55;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #754e56;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> Seja bem vindo ao nosso time, querido usuário  :)</h1>
+</div>
+
+<div class="topnav">
+  <a href="PAG2.html"><h3>Clique aqui e descubra a história de alguns sabores de pizza!</a></h3>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h5>PIZZAS MAIS PEDIDAS NO BRASIL</h5>
+      <P> 1- Mussarela</P>
+      <div class="responsive">
+        <div class="gallery">
+            <img src="https://coralplaza.com.br/wp-content/uploads/2019/12/269868-conheca-as-principais-pizzarias-em-natal.jpg">
+        </div>
+      </div>
+      
+      <p> 2- Calabresa</p>
+      <div class="responsive">
+        <div class="gallery">
+            <img src="https://www.sabordasreceitas.com.br/wp-content/uploads/2021/09/Receita-de-pizza-de-calabresa-facil-850x560.jpg">
+        </div>
+      </div>
+      
+      <p> 3-Romeu e Julieta</p>
+      <div class="responsive">
+        <div class="gallery">
+            <img src="https://www.pizzatec.com.br/assets/uploads/images/2018/12/pizza-romeu-e-julieta.jpg">
+        </div>
+      </div>
+      
+      <p> 4-Napolitana</p>
+      <div class="responsive">
+        <div class="gallery">
+            <img src="https://www.cozinhatecnica.com/wp-content/uploads/2018/04/pizza-margherita-verace-e1524051005677.jpg">
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      <p></p>
+      </div>
+
+      <div class="clearfix"></div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+        <h3>NOSSA MELHOR INDICAÇÃO NO MOMENTO:</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15720.514440029669!2d-67.82119875146894!3d-9.923245499451344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x917f8b86c1a94fa9%3A0xc57b48779def56a9!2sLazat!5e0!3m2!1spt-BR!2sbr!4v1668867032805!5m2!1spt-BR!2sbr" width="200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Siga no instagram: @iamjuliah.__ & @Kannerjuh_!</h2>
+</div>
+
+</body>
+</html>
